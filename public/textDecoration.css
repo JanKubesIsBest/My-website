@@ -1,0 +1,162 @@
+.links:has(.link:hover) > *:not(.link:hover){
+    filter: blur(4px);
+
+    transition: all 500ms;
+}
+
+.spanLetter {
+    display: inline-flex;
+    color: white;
+    transition: all 500ms;
+}
+
+
+.link:hover > .spanLetter{
+    color: blue;    
+    transition: all 1099ms;
+}
+
+.link:hover > .instagram:nth-child(1){
+    transform: translate(90%, -80%);
+
+    transition: transform 500ms;
+}
+.link:hover > .instagram:nth-child(2){
+    transform: translate(15%, 40%);
+
+    transition: transform 500ms;
+}
+.link:hover > .instagram:nth-child(3){
+    transform: translate(-40%, -120%);
+
+    transition: transform 500ms;
+}
+.link:hover > .instagram:nth-child(4){
+    transform: translate(90%, 20%);
+
+    transition: transform 500ms;
+}
+.link:hover > .instagram:nth-child(5){
+    transform: translate(90%, -80%);
+
+    transition: transform 500ms;
+}
+
+.link:hover > .linkedin:nth-child(1){
+    transform: translate(-90%, -20%);
+
+    transition: transform 500ms;
+}
+.link:hover > .linkedin:nth-child(2){
+    transform: translate(40%, -50%);
+
+    transition: transform 500ms;
+}
+.link:hover > .linkedin:nth-child(3){
+    transform: translate(-20%, 60%);
+
+    transition: transform 500ms;
+}
+.link:hover > .linkedin:nth-child(4){
+    transform: translate(40%, -20%);
+
+    transition: transform 500ms;
+}
+.link:hover > .linkedin:nth-child(5){
+    transform: translate(50%, 50%);
+
+    transition: transform 500ms;
+}
+.link:hover > .linkedin:nth-child(6){
+    transform: translate(-40%, -20%);
+
+    transition: transform 500ms;
+}
+.link:hover > .linkedin:nth-child(7){
+    transform: translate(-30%, 20%);
+
+    transition: transform 500ms;
+}
+
+.link:hover > .linkedin:nth-child(8){
+    transform: translate(40%, 40%);
+
+    transition: transform 500ms;
+}
+
+.link:hover > .email:nth-child(1){
+    transform: translate(-40%, -20%);
+
+    transition: transform 500ms;
+}
+.link:hover > .email:nth-child(2){
+    transform: translate(45%, -30%);
+
+    transition: transform 500ms;
+}
+.link:hover > .email:nth-child(3){
+    transform: translate(-10%, 60%);
+
+    transition: transform 500ms;
+}
+.link:hover > .email:nth-child(4){
+    transform: translate(40%, -40%);
+
+    transition: transform 500ms;
+}
+.link:hover > .email:nth-child(5){
+    transform: translate(30%, 50%);
+
+    transition: transform 500ms;
+}
+
+.link:hover > .javascript:nth-child(1){
+    transform: translate(30%, 50%);
+
+    transition: transform 500ms;
+}
+.link:hover > .javascript:nth-child(2){
+    transform: translate(-30%, -80%);
+
+    transition: transform 500ms;
+}
+.link:hover > .javascript:nth-child(3){
+    transform: translate(-90%, 10%);
+
+    transition: transform 500ms;
+}
+.link:hover > .javascript:nth-child(4){
+    transform: translate(10%, -90%);
+
+    transition: transform 500ms;
+}
+.link:hover > .javascript:nth-child(5){
+    transform: translate(10%, 70%);
+
+    transition: transform 500ms;
+}
+.link:hover > .javascript:nth-child(6){
+    transform: translate(10%, -20%);
+
+    transition: transform 500ms;
+}
+.link:hover > .javascript:nth-child(7){
+    transform: translate(-10%, 50%);
+
+    transition: transform 500ms;
+}
+.link:hover > .javascript:nth-child(8){
+    transform: translate(10%, -50%);
+
+    transition: transform 500ms;
+}
+.link:hover > .javascript:nth-child(9){
+    transform: translate(45%, -10%);
+
+    transition: transform 500ms;
+}
+.link:hover > .javascript:nth-child(10){
+    transform: translate(10%, +40%);
+
+    transition: transform 500ms;
+}
