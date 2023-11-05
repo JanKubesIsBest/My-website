@@ -1,4 +1,9 @@
-@keyframes cardup {
+@keyframes card1up {
+    100% {
+        transform: translateY(-65vh);
+    }
+}
+@keyframes card2up {
     100% {
         transform: translateY(-50vh);
     }

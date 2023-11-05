@@ -88,8 +88,8 @@ function scrollDown(firstCard, secondCard, header, fullfilingtext, firsTime){
             secondCard.style.transform = "translateY(0)";
         }
 
-        firstCard.style.animation = "cardup 2s forwards";
-        secondCard.style.animation = "cardup 2s forwards";
+        firstCard.style.animation = "card2up 2s forwards";
+        secondCard.style.animation = "card1up 2s forwards";
 
         firstCard.style.opacity = 1;
         secondCard.style.opacity = 0.5;
@@ -111,10 +111,10 @@ function scrollUp(firstCard, secondCard, header, fullfilingtext) {
     secondCard.offsetHeight;
 
     firstCard.style.transform = "translateY(-50vh)";
-    secondCard.style.transform = "translateY(-50vh)";
+    secondCard.style.transform = "translateY(-65vh)";
 
-    firstCard.style.animation = "card2down 2s forwards";
-    secondCard.style.animation = "carddown 2s forwards";
+    firstCard.style.animation = "card2down 2.2s forwards";
+    secondCard.style.animation = "carddown 2.2s forwards";
 
     firstCard.style.opacity = 0.5;
     secondCard.style.opacity = 1;
